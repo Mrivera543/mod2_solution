@@ -14,26 +14,26 @@ h1 {
 
 .title{
     display: block;
-/*
-    margin: 0;
-    padding: 0;
-*/
     float: right;
-    width: 20%;
-    height: inherit;
+    width: 25%;
+    height: 15%;
     text-align: center;
     font-weight: bold;
-    font-size: 15px;
-    background-color: #33cc33;
-    border: 2px solid black;     
-}
-
-
-p { 
     font-size: 20px;
-    text-align: block;
+    background-color: #33cc33;
+    border: 2px solid black;   
+}
+    
+ p{
+    font-size: 20px;
     border: 2px solid black;
     font-family: Helvetica, sans-serif;
+}
+span {
+    clear: both;
+    display: block;
+    margin: 10%;
+    
 }
 .p1 {   
      background-color: #ff9900; 
@@ -50,7 +50,7 @@ p {
      background-color: #cc9900;
      padding-left: 2%;
      padding-bottom: 2%;
-}
+    }
   
 @media screen and (min-width: 1200px) {
   p {
@@ -65,10 +65,8 @@ p {
      display: inline-block;
      width: 33%;        
     }
-    
-  
 }
-/* tablets devices media */
+    /* tablets devices media */
 @media screen and (max-width: 991px) and (min-width: 768px) {       
     
 .p1 {   
@@ -94,4 +92,5 @@ p {
     }
     
  }
+
 
